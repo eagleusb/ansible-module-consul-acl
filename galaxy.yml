@@ -1,0 +1,21 @@
+---
+namespace: "ansible-module"
+name: "consul"
+version: "0.1.0"
+readme: "README.md"
+authors:
+  - "Leslie-Alexandre DENIS <git@eagleusb.com>"
+description: "Consul ACL module to manage tokens and rules"
+license_file: "LICENSE"
+tags:
+  - "consul"
+  - "consul-acl"
+  - "hashicorp"
+  - "service-discovery"
+dependencies: {}
+repository: "https://github.com/eagleusb/ansible-module.consul"
+documentation: "https://github.com/eagleusb/ansible-module.consul/tree/main/docs"
+homepage: "https://github.com/eagleusb/ansible-module.consul"
+issues: "https://github.com/eagleusb/ansible-module.consul/issues"
+build_ignore:
+  - "*.ini"
